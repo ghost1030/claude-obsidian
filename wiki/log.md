@@ -25,6 +25,24 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-07-06] ingest | 金钱心理学
+- Source: `.raw/金钱心理学...epub`
+- Summary: [[金钱心理学]]
+- Pages created: [[金钱心理学]]
+- Key insight: 理财成功与智商关系不大，与行为习惯紧密相关；时间自由是财富的最高红利
+
+## [2026-07-06] ingest | 情感勒索
+- Source: `.raw/情感勒索.epub`
+- Summary: [[情感勒索]]
+- Pages created: [[情感勒索]]
+- Key insight: 情感勒索利用恐惧感、责任感、愧疚感（FOG三角）操纵他人；改变回应方式是破解之道
+
+## [2026-07-06] ingest | 小狗钱钱
+- Source: `.raw/XiaoGouQianQian.epub`
+- Summary: [[小狗钱钱]]
+- Pages created: [[小狗钱钱]]
+- Key insight: 要想富有，先把自己变成小孩——诚实、自信、乐于学习；梦想储蓄罐+梦想相册+成功日记
+
 ## [2026-04-24] save | v1.6.0 public release notes (Teams, Karpathy-style)
 - Type: release doc + visual assets
 - Locations (new): `docs/releases/v1.6.0.md` (346 lines, 6 sections, Karpathy-style prose), `wiki/meta/dragonscale-mechanism-overview.svg` (4-mechanism diagram with shared .vault-meta/ gate), `wiki/meta/dragonscale-6-test-flow.svg` (validation timeline), `wiki/meta/dragonscale-frontier-graph.svg` (M4 candidate + 3 filed pages)

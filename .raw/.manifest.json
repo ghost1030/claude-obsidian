@@ -2,7 +2,26 @@
   "version": 1,
   "created": "2026-04-23",
   "description": "Ingest delta tracker and address map for the claude-obsidian vault. Do not hand-edit; wiki-ingest maintains this.",
-  "sources": {},
+  "sources": {
+    ".raw/XiaoGouQianQian.epub": {
+      "hash": "d4cbe9406b45610d087e5f4b4c4dccdd",
+      "ingested_at": "2026-07-06",
+      "pages_created": ["wiki/sources/小狗钱钱.md"],
+      "pages_updated": []
+    },
+    ".raw/情感勒索.epub": {
+      "hash": "d743f8016955e9602f4d9eae47431a4e",
+      "ingested_at": "2026-07-06",
+      "pages_created": ["wiki/sources/情感勒索.md"],
+      "pages_updated": []
+    },
+    ".raw/金钱心理学财富、人性和幸福的永恒真相 = The Psychology of Money Timeless Lessons on Wealth, Greed, and Happiness ([美] 摩根 · 豪泽尔 (Mogan Housel) 著  李青宗 译) (z-library.sk, 1lib.sk, z-lib.sk).epub": {
+      "hash": "26d924d36fe7a607c7e33db6a7623dd3",
+      "ingested_at": "2026-07-06",
+      "pages_created": ["wiki/sources/金钱心理学.md"],
+      "pages_updated": []
+    }
+  },
   "address_map": {
     "wiki/concepts/DragonScale Memory.md": "c-000001"
   }

@@ -23,7 +23,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-07-02 | Total pages: 40 | Sources ingested: 7
+Last updated: 2026-07-06 | Total pages: 43 | Sources ingested: 10
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -69,6 +69,9 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[DeepSeek原理与项目实战]] — 未来智能实验室 | MoE架构、FP8训练、API开发实战 (status: evergreen)
 - [[大众哲学]] — 艾思奇 | 马克思主义哲学入门 | 辩证法、唯物论、认识论 (status: evergreen)
 - [[娱乐至死]] — 尼尔·波兹曼 | 媒介批判 | 电视文化、娱乐化、赫胥黎警告 (status: evergreen)
+- [[小狗钱钱]] — 博多·舍费尔 | 儿童财商启蒙 | 梦想储蓄罐、成功日记、会下金蛋的鹅 (status: evergreen)
+- [[情感勒索]] — 苏珊·福沃德 | 人际关系心理学 | FOG三角、边界建立、软暴力应对 (status: evergreen)
+- [[金钱心理学]] — 摩根·豪泽尔 | 行为金融学 | 复利、运气与风险、守富、时间自由 (status: evergreen)
 
 ---
 
