@@ -148,3 +148,7 @@ _attachments/
 # v1.8 methodology mode (host-specific by default; `git add -f` to commit if desired)
 .vault-meta/mode.json
 .vault-meta/mode.*.tmp
+
+# 拆书工作区（拆书/）：视频临时文件和BGM不跟踪
+拆书/视频/temp/
+拆书/bgm/
