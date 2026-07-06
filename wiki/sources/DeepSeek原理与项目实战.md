@@ -7,11 +7,11 @@ year: 2025
 isbn: "9787115665584"
 created: 2026-07-02
 tags:
-  - AI (人工智能)
-  - deepseek (深度求索)
-  - LLM (大语言模型)
-  - transformer (变换器架构)
-  - technical (技术类)
+  - AI
+  - deepseek
+  - LLM
+  - transformer
+  - technical
 status: evergreen
 related:
   - "[[未来的可能]]"
