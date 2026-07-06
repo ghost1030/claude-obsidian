@@ -67,6 +67,8 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[认知觉醒]] — 周岭 | 自我改变原动力 | 元认知、拉伸区、三重大脑 (status: evergreen)
 - [[显微镜下的大明]] — 马伯庸 | 明代基层社会史 | 丝绢案、龙脉、律政风云 (status: evergreen)
 - [[DeepSeek原理与项目实战]] — 未来智能实验室 | MoE架构、FP8训练、API开发实战 (status: evergreen)
+- [[大众哲学]] — 艾思奇 | 马克思主义哲学入门 | 辩证法、唯物论、认识论 (status: evergreen)
+- [[娱乐至死]] — 尼尔·波兹曼 | 媒介批判 | 电视文化、娱乐化、赫胥黎警告 (status: evergreen)
 
 ---
 
