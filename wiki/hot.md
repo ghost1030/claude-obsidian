@@ -53,14 +53,13 @@ Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Plugin State
 
-- **Version**: 1.7.1 (audit-driven patch on top of Compound Vault; plugin.json + marketplace.json synced; local-only branch `v1.7.0-compound-vault`, no push, no tag)
+- **Version**: 1.9.2 (prompt-cache hardening + path-handling robustness; forked to ghost1030/claude-obsidian, upstream = AgriciDaniel/claude-obsidian)
 - **Install ID**: `claude-obsidian@ai-marketing-hub-claude-obsidian`
-- **Skills**: 13 (wiki, wiki-ingest, wiki-query, wiki-lint, wiki-fold, save, autoresearch, canvas, defuddle, obsidian-bases, obsidian-markdown, **wiki-cli (v1.7)**, **wiki-retrieve (v1.7, opt-in)**)
-- **Scripts (v1.6)**: `scripts/allocate-address.sh`, `scripts/tiling-check.py`, `scripts/boundary-score.py` (DragonScale; opt-in; feature-detected by skills)
-- **Scripts (v1.7 — new)**: `scripts/detect-transport.sh`, `scripts/contextual-prefix.py`, `scripts/bm25-index.py`, `scripts/rerank.py`, `scripts/retrieve.py`, `scripts/wiki-lock.sh`
-- **Setup**: `bin/setup-vault.sh` (base vault), `bin/setup-dragonscale.sh` (opt-in DragonScale), `bin/setup-multi-agent.sh` (multi-agent bootstrap), `bin/setup-retrieve.sh` (opt-in v1.7 hybrid retrieval)
-- **Tests**: `make test` runs 7 suites — `test_allocate_address.sh`, `test_tiling_check.py`, `test_boundary_score.py`, **`test_bm25_index.py`**, **`test_retrieve.py`**, **`test_wiki_lock.sh`**, **`test_concurrent_write.sh`**. Zero ollama and zero network dependency for all core tests.
-- **Hooks**: 4 (SessionStart, PostCompact, PostToolUse [stages wiki/, .raw/, .vault-meta/; **v1.7: defers `git add` if wiki-lock locks held**], Stop)
+- **Skills**: 15 (wiki, wiki-ingest, wiki-query, wiki-lint, wiki-fold, save, autoresearch, canvas, defuddle, obsidian-bases, obsidian-markdown, **wiki-cli (v1.7)**, **wiki-retrieve (v1.7, opt-in)**, **wiki-mode (v1.8)**, **think (v1.9)**)
+- **Scripts**: `allocate-address.sh`, `tiling-check.py`, `boundary-score.py` (DragonScale; opt-in), `detect-transport.sh`, `contextual-prefix.py`, `bm25-index.py`, `rerank.py`, `retrieve.py`, `wiki-lock.sh`, `wiki-mode.py`, `baseline-v16.py`, `benchmark-runner.py`
+- **Setup**: `bin/setup-vault.sh` (base vault), `bin/setup-dragonscale.sh` (opt-in DragonScale), `bin/setup-multi-agent.sh` (multi-agent bootstrap), `bin/setup-retrieve.sh` (opt-in v1.7 hybrid retrieval), `bin/setup-mode.sh` (v1.8 methodology modes)
+- **Tests**: `make test` runs 9 suites — `test_allocate_address.sh`, `test_tiling_check.py`, `test_boundary_score.py`, `test_bm25_index.py`, `test_retrieve.py`, `test_wiki_lock.sh`, `test_concurrent_write.sh`, `test_wiki_mode.py`, `test_contextual_prefix.py`. Zero ollama and zero network dependency for all core tests.
+- **Hooks**: 4 (SessionStart, PostCompact, PostToolUse [stages wiki/, .raw/, .vault-meta/; defers `git add` if wiki-lock locks held], Stop)
 
 ## DragonScale Mechanisms
 
@@ -85,11 +84,12 @@ Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Active Threads
 
-- DragonScale Mechanism 4 shipped in Phase 4 as an opt-in Topic Selection mode in `skills/autoresearch/`. All four DragonScale mechanisms are now shipped and feature-gated.
-- v1.6.0 not yet pushed to GitHub (local commits only, no git tag created). User controls push and tag timing.
-- CLAUDE.md has one pre-existing uncommitted change ("Release Blog Post" section) that predates this session.
+- All four DragonScale mechanisms shipped and feature-gated (M1 fold, M2 addresses, M3 tiling, M4 boundary-first autoresearch).
+- v1.9.2 is current. Fork pushed to origin (ghost1030/claude-obsidian); upstream tracking preserved.
+- Vault in active use: 5 ebooks ingested (2026-07-02), 56 wiki pages. Next: depth extraction + publish feedback testing.
 
 ## Repo Locations
 
-- Working: `~/Desktop/claude-obsidian/`
-- Public: https://github.com/AI-Marketing-Hub/claude-obsidian
+- Working: `/Users/cpliu/Documents/projects/GitHub/claude-obsidian/`
+- Origin (fork): https://github.com/ghost1030/claude-obsidian
+- Upstream: https://github.com/AgriciDaniel/claude-obsidian

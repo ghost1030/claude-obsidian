@@ -3,6 +3,16 @@
 # .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/workspace-visual.json
+
+# Only track project pre-installed plugins (calendar, thino, banners, excalidraw)
+# User-installed plugins stay local to avoid version drift
+.obsidian/plugins/*/
+!.obsidian/plugins/calendar/
+!.obsidian/plugins/thino/
+!.obsidian/plugins/obsidian-banners/
+!.obsidian/plugins/obsidian-excalidraw-plugin/
+
+# Plugin data is local config (except calendar + thino which ship pre-configured)
 .obsidian/plugins/*/data.json
 !.obsidian/plugins/calendar/data.json
 !.obsidian/plugins/thino/data.json
@@ -62,6 +72,12 @@ Untitled.base
 *.base
 # Track our committed dashboard.base (Bases dashboard shipped with the vault)
 !wiki/meta/dashboard.base
+
+# User-added subprojects (not part of claude-obsidian)
+book-video/
+
+# WorkBuddy workspace memory
+.workbuddy/
 
 # Scratch canvases and personal vault files
 Banana Images.canvas
