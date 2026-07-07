@@ -24,7 +24,7 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-07-06 | Total pages: 43 | Sources ingested: 10
+Last updated: 2026-07-07 | Total pages: 44 | Sources ingested: 11
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[getting-started]]
 
@@ -73,6 +73,7 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[小狗钱钱]] — 博多·舍费尔 | 儿童财商启蒙 | 梦想储蓄罐、成功日记、会下金蛋的鹅 (status: evergreen)
 - [[情感勒索]] — 苏珊·福沃德 | 人际关系心理学 | FOG三角、边界建立、软暴力应对 (status: evergreen)
 - [[金钱心理学]] — 摩根·豪泽尔 | 行为金融学 | 复利、运气与风险、守富、时间自由 (status: evergreen)
+- [[金桃]] — 杨晚晴 | 历史科幻/中式科幻 | 算机、振丝、无穷与自指悖论(哥德尔)、李约瑟之问 (status: evergreen)
 
 ---
 

@@ -25,6 +25,13 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-07-07] ingest | 金桃
+- Source: `.raw/金桃 (杨晚晴).epub`
+- Summary: [[金桃]]
+- Pages created: [[金桃]]
+- Deep-dive: [[金桃_科学科普包]]（科学科普包二轮深挖，5 概念严谨解释 + 教学脚本）
+- Key insight: 知识即权力亦脆弱；形式主义极限（哥德尔不完备）；中式科幻应"从思想到技术到美学"自底向上
+
 ## [2026-07-06] ingest | 金钱心理学
 - Source: `.raw/金钱心理学...epub`
 - Summary: [[金钱心理学]]

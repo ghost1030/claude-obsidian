@@ -3,6 +3,12 @@
   "created": "2026-04-23",
   "description": "Ingest delta tracker and address map for the claude-obsidian vault. Do not hand-edit; wiki-ingest maintains this.",
   "sources": {
+    ".raw/金桃 (杨晚晴) (z-library.sk, 1lib.sk, z-lib.sk).epub": {
+      "hash": "c37e6dd794b08cd2bebbce495c2bf787",
+      "ingested_at": "2026-07-07",
+      "pages_created": ["wiki/sources/金桃.md"],
+      "pages_updated": []
+    },
     ".raw/XiaoGouQianQian.epub": {
       "hash": "d4cbe9406b45610d087e5f4b4c4dccdd",
       "ingested_at": "2026-07-06",
