@@ -15,6 +15,7 @@ related:
   - "[[concepts/_index]]"
   - "[[entities/_index]]"
   - "[[sources/_index]]"
+  - "[[analysis/index]]"
   - "[[LLM Wiki Pattern]]"
   - "[[Hot Cache]]"
   - "[[Compounding Knowledge]]"
@@ -72,6 +73,12 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[dashboard]] | [[Wiki Map]] | [[
 - [[小狗钱钱]] — 博多·舍费尔 | 儿童财商启蒙 | 梦想储蓄罐、成功日记、会下金蛋的鹅 (status: evergreen)
 - [[情感勒索]] — 苏珊·福沃德 | 人际关系心理学 | FOG三角、边界建立、软暴力应对 (status: evergreen)
 - [[金钱心理学]] — 摩根·豪泽尔 | 行为金融学 | 复利、运气与风险、守富、时间自由 (status: evergreen)
+
+---
+
+## Novel Analysis (小说榨干)
+
+- [[analysis/index]] — 科幻小说深度分析索引（novel-extract-scifi 产出；与 sources 双向链接）
 
 ---
 
